@@ -1,0 +1,12 @@
+$TTL 1D
+@	IN SOA	ahrs.com. root.ahrs.com. (
+					0	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+	NS	@
+	   A    172.16.250.4
+www     IN A    172.16.250.4
+        IN A    172.16.250.130
+
